@@ -2,7 +2,10 @@
 Custom Advertisements in Android using MoPub
 
 This is featured code from the blog post titled: [Android Custom Ad-MoPub Edition](http://www.letsthinkabout.us/post/android-custom-ad-mopub-edition)
-![image](https://raw.github.com/bbhsu2/AndroidCustomAd/master/homescrn.png)
+
+<p align="center">
+  <img src="https://raw.github.com/bbhsu2/AndroidCustomAd/master/homescrn.png?raw=true" alt="project image"/>
+</p>
 
 Be sure to add your own advertisement id from MoPub here in views.AdView:
 
