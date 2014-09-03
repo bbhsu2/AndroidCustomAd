@@ -1,11 +1,12 @@
 #AndroidCustomAd
 ===============
-
 Custom Advertisements in Android using MoPub
 
+This is featured code from the blog post titled: [Android Custom Ad-MoPub Edition](http://www.letsthinkabout.us/post/android-custom-ad-mopub-edition)
+![image](https://raw.github.com/bbhsu2/AndroidCustomAd/master/homescrn.png)
 Be sure to add your own advertisement id from MoPub here in views.AdView:
 
-	``public AdView(Context context, AttributeSet attrs){
+	<code>public AdView(Context context, AttributeSet attrs){
 		super(context, attrs);
 		this.context = context;
 		
@@ -13,15 +14,13 @@ Be sure to add your own advertisement id from MoPub here in views.AdView:
 		this.setAdUnitId(""); 
 		this.loadAd();
 		this.setBannerAdListener(this);
-	}``
+	}</code>
 
 **In the XML Layout, declare the custom class**
-
-``    <views.AdView
+<code>    <views.AdView
         android:layout_width="fill_parent"
         android:layout_height="50dp" />
-``
+</code>
 
 ##Enjoy!
-
 &copy; 2014 All Good People LLC
